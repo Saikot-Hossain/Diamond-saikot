@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.header-menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 10px;
+      padding: 20px;
+      
+}
+
+.h-next{
+    color: rgb(255,112,121);
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 1.5rem; 
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-item:hover{
+    color:  rgb(255,112,121);
+}
+
+.btn-sign{
+    color: white;
+    background-color: rgb(247,112,98);
+    border: none;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+}
+
+.btn-sign:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.sec-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    
+
+.h-gen{
+    color:rgb(255,112,121) ;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    padding: 10px;
+
+
+} 
+.h-tech{
+    color: rgb(139,86,254);
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+.h-see{
+    color: white;
+    padding: 10px;
+}
+.btn-get{
+    color: white;
+    background-color:rgb(253,85,143);
+    border: none;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.main-img{
+    height: 500px;
+}
+.p-see{
+    color: rgb(255,112,121);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 20px;
+}
+
+.img-sec{
+    display: flex;
+    width: 700px;
+    
+}
+.img-div{
+    background-image: url(img-second/pic3.jpg);
+    height: 700px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-div2{
+    background-image: url(img-second/pic4.jpg);
+    height: 700px;
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic-4{
+    height: 450px;
+}
+.sec-3{
+    display: flex;
+    
+    justify-content: space-between ;
+    width: 700px;
+    
+    
+}
+.common-list {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.common-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-bottom: 8px;
+}
+.footer-title{
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.img-element{
+    margin-top: 530px;
+}
+.h-exp{
+    color: white;
+    padding: 10px;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-exp{
+    color:white;
+    padding: 10px;
+    font-size: ;
+}
+.btn-get{
+    margin: 10px;
+}
+.h-bottom{
+    color:white;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.p-bottom{
+    color: white;
+    font-size: 1.2rem;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-design{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.main-icon{
+    color: rgb(255, 44, 44);
+    font-size: 2.5rem;
+    
+}
+
